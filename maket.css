@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 header {
     background-color: #1f2937;
     height: 60px;
@@ -60,13 +63,12 @@ h1 {
     width: 500px;
     height: 400px;
 }
-.padi { 
-    padding: 20px 20px 0;
+.title {
+
 }
 button {
     width: 100px;
     height: 35px;
-    margin: 0 20px;
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
@@ -118,6 +120,9 @@ button {
     border: solid blue 2px;
     border-radius: 10px;
 }
+.paragraf {
+    text-align: center;
+}
 .central-block {
     background-color: lightgray;
     height: 450px;
@@ -143,7 +148,7 @@ button {
     font-size: 48px;
 }
 .sector-fwo {
-    height: 450px;
+    height: 300px;
     width: 100%;
     display: flex;
     justify-content: center;
