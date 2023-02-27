@@ -59,12 +59,16 @@ h1 {
 }
 .top-left, .top-right{
     display: flex;
+    justify-content: center;
     flex-flow: column wrap;
     width: 500px;
-    height: 400px;
+    height: 370px;
 }
 .title {
-
+    width: 300px;
+    height: 100px;
+    font-size: 48px;
+    color: #F9FAF8;
 }
 button {
     width: 100px;
@@ -138,7 +142,7 @@ button {
     flex-direction: column;
 }
 .center-text {
-    height: 120px;
+    height: 150px;
     font-size: 40px;
 }
 .center-text-right{
